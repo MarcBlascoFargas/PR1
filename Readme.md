@@ -10,7 +10,7 @@ file “/dtc/bind/db.stucomx.net”;
 
 };
 </code></pre>
-Ahora, hay que crear el archivo que hemos configurado en la tercelra línea del código anterior, lo haremos con el comando cp, así: **sudo cp /etc/bind/db.empty /etc/bind/db.stucomx.net
+Ahora, hay que crear el archivo que hemos configurado en la tercelra línea del código anterior, lo haremos con el comando cp, así: **sudo cp /etc/bind/db.empty /etc/bind/db.stucomx.net**
 
 Una vez terminado, ahora añadiremos los parámetros de la configuración del dns modificando el archivo que había creado anterior mente con el siguiente comando. **Sudo nano /etc/bind/db.stucomx.net** y lo configuramos.
 Para comprobar que todo funciona correctamente realizamos sudo service bind9 status
